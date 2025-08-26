@@ -1,4 +1,4 @@
-module github.com/MikhailKopeikin/my-go-api
+module github.com/teuflischone/my-go-api
 
 go 1.23.0
 
