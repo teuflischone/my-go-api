@@ -2,7 +2,7 @@
 // @version 1.0
 // @description REST API built with Go (Echo)
 // @contact.name Mikhail Kopeikin
-// @contact.url https://github.com/MikhailKopeikin/my-go-api
+// @contact.url https://github.com/teuflischone/my-go-api
 
 package main
 
@@ -13,23 +13,23 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/MikhailKopeikin/my-go-api/utils/crypto"
-	"github.com/MikhailKopeikin/my-go-api/utils/jwt"
+	"github.com/teuflischone/my-go-api/utils/crypto"
+	"github.com/teuflischone/my-go-api/utils/jwt"
 
-	_ "github.com/MikhailKopeikin/my-go-api/docs"
-	"github.com/MikhailKopeikin/my-go-api/utils"
+	_ "github.com/teuflischone/my-go-api/docs"
+	"github.com/teuflischone/my-go-api/utils"
 
-	"github.com/MikhailKopeikin/my-go-api/config"
-	httpDelivery "github.com/MikhailKopeikin/my-go-api/delivery/http"
-	appMiddleware "github.com/MikhailKopeikin/my-go-api/delivery/middleware"
-	"github.com/MikhailKopeikin/my-go-api/infrastructure/datastore"
-	"github.com/MikhailKopeikin/my-go-api/internal/ops"
-	pgsqlRepository "github.com/MikhailKopeikin/my-go-api/repository/pgsql"
-	redisRepository "github.com/MikhailKopeikin/my-go-api/repository/redis"
-	"github.com/MikhailKopeikin/my-go-api/usecase"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	echoSwagger "github.com/swaggo/echo-swagger"
+	"github.com/teuflischone/my-go-api/config"
+	httpDelivery "github.com/teuflischone/my-go-api/delivery/http"
+	appMiddleware "github.com/teuflischone/my-go-api/delivery/middleware"
+	"github.com/teuflischone/my-go-api/infrastructure/datastore"
+	"github.com/teuflischone/my-go-api/internal/ops"
+	pgsqlRepository "github.com/teuflischone/my-go-api/repository/pgsql"
+	redisRepository "github.com/teuflischone/my-go-api/repository/redis"
+	"github.com/teuflischone/my-go-api/usecase"
 )
 
 func main() {

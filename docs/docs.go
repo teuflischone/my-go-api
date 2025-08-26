@@ -11,7 +11,7 @@ const docTemplate = `{
         "title": "{{.Title}}",
         "contact": {
             "name": "Mikhail Kopeikin",
-            "url": "https://github.com/MikhailKopeikin/my-go-api"
+            "url": "https://github.com/teuflischone/my-go-api"
         },
         "version": "{{.Version}}"
     },
