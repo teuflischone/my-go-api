@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
-	httpDelivery "github.com/MikhailKopeikin/my-go-api/delivery/http"
-	"github.com/MikhailKopeikin/my-go-api/mocks"
-	"github.com/MikhailKopeikin/my-go-api/transport/request"
+	httpDelivery "github.com/teuflischone/my-go-api/delivery/http"
+	"github.com/teuflischone/my-go-api/mocks"
+	"github.com/teuflischone/my-go-api/transport/request"
 )
 
 func TestAuthHandler_SignUp(t *testing.T) {

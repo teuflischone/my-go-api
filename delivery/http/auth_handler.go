@@ -5,10 +5,10 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/labstack/echo/v4"
-	"github.com/MikhailKopeikin/my-go-api/delivery/middleware"
-	"github.com/MikhailKopeikin/my-go-api/domain"
-	"github.com/MikhailKopeikin/my-go-api/transport/request"
-	"github.com/MikhailKopeikin/my-go-api/utils"
+	"github.com/teuflischone/my-go-api/delivery/middleware"
+	"github.com/teuflischone/my-go-api/domain"
+	"github.com/teuflischone/my-go-api/transport/request"
+	"github.com/teuflischone/my-go-api/utils"
 )
 
 type AuthHandler struct {

@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/MikhailKopeikin/my-go-api/domain"
-	"github.com/MikhailKopeikin/my-go-api/repository/redis"
-	"github.com/MikhailKopeikin/my-go-api/transport/request"
-	"github.com/MikhailKopeikin/my-go-api/utils"
+	"github.com/teuflischone/my-go-api/domain"
+	"github.com/teuflischone/my-go-api/repository/redis"
+	"github.com/teuflischone/my-go-api/transport/request"
+	"github.com/teuflischone/my-go-api/utils"
 )
 
 type todoUsecase struct {

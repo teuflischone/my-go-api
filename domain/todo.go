@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/MikhailKopeikin/my-go-api/transport/request"
+	"github.com/teuflischone/my-go-api/transport/request"
 )
 
 // Todo ...

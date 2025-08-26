@@ -8,7 +8,7 @@ import (
 	"github.com/alicebob/miniredis"
 	"github.com/go-redis/redis"
 	"github.com/stretchr/testify/assert"
-	redisRepo "github.com/MikhailKopeikin/my-go-api/repository/redis"
+	redisRepo "github.com/teuflischone/my-go-api/repository/redis"
 )
 
 func SetupRedis() redisRepo.RedisRepository {

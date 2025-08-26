@@ -3,7 +3,7 @@ package domain
 import (
 	"context"
 
-	"github.com/MikhailKopeikin/my-go-api/transport/request"
+	"github.com/teuflischone/my-go-api/transport/request"
 )
 
 // AuthUsecase represent the auth usecase contract

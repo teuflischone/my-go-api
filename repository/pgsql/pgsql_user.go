@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/MikhailKopeikin/my-go-api/domain"
+	"github.com/teuflischone/my-go-api/domain"
 )
 
 type pgsqlUserRepository struct {

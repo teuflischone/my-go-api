@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/MikhailKopeikin/my-go-api/utils/jwt"
+	"github.com/teuflischone/my-go-api/utils/jwt"
 )
 
 // Middleware ...

@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/MikhailKopeikin/my-go-api/domain"
-	"github.com/MikhailKopeikin/my-go-api/repository/pgsql"
+	"github.com/teuflischone/my-go-api/domain"
+	"github.com/teuflischone/my-go-api/repository/pgsql"
 	"gopkg.in/DATA-DOG/go-sqlmock.v1"
 )
 

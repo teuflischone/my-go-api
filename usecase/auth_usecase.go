@@ -5,11 +5,11 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/MikhailKopeikin/my-go-api/domain"
-	"github.com/MikhailKopeikin/my-go-api/transport/request"
-	"github.com/MikhailKopeikin/my-go-api/utils"
-	"github.com/MikhailKopeikin/my-go-api/utils/crypto"
-	"github.com/MikhailKopeikin/my-go-api/utils/jwt"
+	"github.com/teuflischone/my-go-api/domain"
+	"github.com/teuflischone/my-go-api/transport/request"
+	"github.com/teuflischone/my-go-api/utils"
+	"github.com/teuflischone/my-go-api/utils/crypto"
+	"github.com/teuflischone/my-go-api/utils/jwt"
 )
 
 type authUsecase struct {

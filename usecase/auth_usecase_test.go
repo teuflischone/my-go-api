@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"github.com/MikhailKopeikin/my-go-api/domain"
-	"github.com/MikhailKopeikin/my-go-api/mocks"
-	"github.com/MikhailKopeikin/my-go-api/transport/request"
-	"github.com/MikhailKopeikin/my-go-api/usecase"
+	"github.com/teuflischone/my-go-api/domain"
+	"github.com/teuflischone/my-go-api/mocks"
+	"github.com/teuflischone/my-go-api/transport/request"
+	"github.com/teuflischone/my-go-api/usecase"
 )
 
 func TestAuthUC_SignUp(t *testing.T) {

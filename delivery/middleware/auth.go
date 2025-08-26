@@ -6,7 +6,7 @@ import (
 
 	jwtLib "github.com/golang-jwt/jwt"
 	"github.com/labstack/echo/v4"
-	"github.com/MikhailKopeikin/my-go-api/utils"
+	"github.com/teuflischone/my-go-api/utils"
 )
 
 func (m *Middleware) JWTAuth() echo.MiddlewareFunc {
